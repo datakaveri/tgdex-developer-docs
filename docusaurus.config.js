@@ -8,12 +8,12 @@ const foot = require('./static/footer_col_3');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'ADeX Documentation',
-	tagline: 'Learn about exploring, building , deploying your apps with IUDX',
+	tagline: 'Learn about exploring, building , deploying your apps with ADeX',
 	url: 'https://docs.adex.org.in/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/icon.ico',
+	favicon: 'img/adex-short.png',
 	organizationName: 'ADeX', // Usually your GitHub org/user name.
 	projectName: 'ADeX', // Usually your repo name.
 
@@ -49,7 +49,7 @@ const config = {
 				title: '',
 				logo: {
 					alt: 'My Site Logo',
-					src: 'img/iudx_logo.png'
+					src: 'img/adex-logo.png'
 				},
 				items: [
 					{
@@ -62,11 +62,11 @@ const config = {
 								href: '/docs/registration'
 							},
 							{
-								label: 'Consumer',
+								label: 'AIU',
 								href: '/docs/Consumer/consumer'
 							},
 							{
-								label: 'Provider',
+								label: 'AIP',
 								href: '/docs/Provider/provider'
 							},
 							{
@@ -127,12 +127,6 @@ const config = {
 							{
 								html: `
                       <div class="logo-address-col">
-                        <a routerLink="/">
-                          <img
-                            src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/iudx.png"
-                            class="logo"
-                          />
-                        </a>
                         <div class="place">
                           <a href="https://goo.gl/maps/sHqNUTRGFDmD2kbX8" target="_blank">
                             <img src="img/location.png" />
@@ -227,4 +221,3 @@ const config = {
 };
 
 module.exports = config;
-

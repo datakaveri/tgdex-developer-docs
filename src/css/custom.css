@@ -22,27 +22,27 @@
   }
 
 :root{
-  --ifm-color-primary: #0b457f;
-  --ifm-color-primary-dark: #0a3e72;
-  --ifm-color-primary-darker: #093b6c;
-  --ifm-color-primary-darkest: #083059;
-  --ifm-color-primary-light: #0c4c8c;
-  --ifm-color-primary-lighter: #0d4f92;
-  --ifm-color-primary-lightest: #0e5aa5;
+  --ifm-color-primary: #0a9;
+  --ifm-color-primary-dark: #0a9;
+  --ifm-color-primary-darker: #0a9;
+  --ifm-color-primary-darkest: #0a9;
+  --ifm-color-primary-light: #0a9;
+  --ifm-color-primary-lighter: #0a9;
+  --ifm-color-primary-lightest: #0a9;
   --ifm-code-font-size: 95%;
   }
   html[data-theme = 'dark']{
-    --ifm-color-primary-dark: #0a3e72;
-    --ifm-color-primary-darker: #093b6c;
+    --ifm-color-primary-dark: #0a9;
+    --ifm-color-primary-darker: #0a9;
   }
-  
+
   .docusaurus-highlight-code-line {
     background-color: rgba(0, 0, 0, 0.1);
     display: block;
     margin: 0 calc(-1 * var(--ifm-pre-padding));
     padding: 0 var(--ifm-pre-padding);
   }
-  
+
   html[data-theme='dark'] .docusaurus-highlight-code-line {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -78,11 +78,15 @@
     font-size: 12px;
     border-radius: 25%;
     fill: white;
-    background-color: #15294b;
+    background-color: #0a9;
     padding: 8px;
     width: 28px;
     height: 28px;
     transition: all 0.2s ease-out;
+  }
+
+  img{
+    max-width: auto !important;
   }
 
   .icon:hover {
@@ -97,22 +101,25 @@
     display: flex;
   }
 
-  .iudx-logo{
-    width: 5rem;
+  .adex-logo{
+    width: 3rem;
+    margin-right: 12px;
   }
 
   .ministry-logo{
-    width: 18rem;
+    width: 3rem;
+    margin-right: 12px;
   }
 
   .iisc-logo{
     width: 5rem;
+    margin-right: 12px;
   }
 
   .connect-with-us{
     text-align: center;
     margin-top: 1.3rem;
-    color: #15294b; 
+    color: #0a9;
   }
 
   .mailto{
@@ -120,7 +127,7 @@
   }
 
   .mailto a{
-    color: #15294b;
+    color: #0a9;
   }
 
   .hr-w-75 {
@@ -133,7 +140,7 @@
   }
 
   .footer__title{
-    color: #15294b;
+    color: #0a9;
   }
 
 
@@ -157,4 +164,3 @@
       flex-direction: column;
     }
   }
-  

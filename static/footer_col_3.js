@@ -1,25 +1,32 @@
 module.exports = `<div class="col-3">
     <div class="flex-parent">
         <img *ngIf="instance" [src]="instance.logo" />
-        <a href="https://smartcities.gov.in/" target="_blank">
-            <img
-                class="iudx-logo"
-                src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/smart-city.png"
-                title="Smart Cities"
-            />
-        </a>
-        <a href="http://mohua.gov.in/" target="_blank">
-            <img
-                class="ministry-logo"
-                src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/mohua.png"
-                title="MoHUA"
-            />
-        </a>
         <a href="https://www.iisc.ac.in/" target="_blank">
             <img
-                class="iisc-logo"
+                class="adex-logo"
                 src="https://iudx-catalogue-assets.s3.ap-south-1.amazonaws.com/iisc.png"
                 title="IISc Bangalore"
+            />
+        </a>
+        <a href=""https://www.telangana.gov.in/Pages/Home.aspx" target="_blank">
+            <img
+                class="ministry-logo"
+                src="img/adex-footer.png"
+                title="Telangana"
+            />
+        </a>
+        <a href="http://adex.org.in/" target="_blank">
+            <img
+                class="adex"
+                src="img/adex-gray-logo.png"
+                title="ADeX"
+            />
+        </a>
+        <a href="https://www.weforum.org/" target="_blank">
+            <img
+                class="wef"
+                src="img/wef.jpg"
+                title="ADeX"
             />
         </a>
     </div>
@@ -110,7 +117,7 @@ module.exports = `<div class="col-3">
             </a>
         </div>
         <p class="mailto">
-            <a href="mailto:info@iudx.org.in"> info@iudx.org.in</a>
+            <a href="mailto:info@iudx.org.in"> info@adex.org.in</a>
         </p>
     </div>
 </div>
