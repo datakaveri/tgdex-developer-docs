@@ -17,14 +17,14 @@ module.exports = `<div class="col-3">
         </a>
         <a href="http://adex.org.in/" target="_blank">
             <img
-                class="adex-logo adex"
+                class="adex"
                 src="img/adex-gray-logo.png"
                 title="ADeX"
             />
         </a>
         <a href="https://www.weforum.org/" target="_blank">
             <img
-                class="adex-logo"
+                class="wef"
                 src="img/wef.jpg"
                 title="ADeX"
             />
