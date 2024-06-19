@@ -25,13 +25,13 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo docs
 					editUrl:
-						'https://github.com/datakaveri/iudx-developer-docs/blob/main/'
+						'https://github.com/datakaveri/adex-developer-docs/blob/main/'
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo blog
 					editUrl:
-						'https://github.com/datakaveri/iudx-developer-docs/blog/'
+						'https://github.com/datakaveri/adex-developer-docs/blog/'
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css')
@@ -82,7 +82,7 @@ const config = {
 					//   label: 'Getting Started',
 					// },
 					{
-						href: 'https://github.com/datakaveri/iudx-developer-docs',
+						href: 'https://github.com/datakaveri/adex-developer-docs',
 						label: 'GitHub',
 						position: 'right'
 					}
