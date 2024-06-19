@@ -7,15 +7,15 @@ const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'IUDX Documentation',
+	title: 'ADeX Documentation',
 	tagline: 'Learn about exploring, building , deploying your apps with IUDX',
-	url: 'https://docs.iudx.org.in/',
+	url: 'https://docs.adex.org.in/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/icon.ico',
-	organizationName: 'IUDX', // Usually your GitHub org/user name.
-	projectName: 'IUDX', // Usually your repo name.
+	organizationName: 'ADeX', // Usually your GitHub org/user name.
+	projectName: 'ADeX', // Usually your repo name.
 
 	presets: [
 		[
