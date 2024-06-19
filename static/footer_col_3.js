@@ -10,21 +10,21 @@ module.exports = `<div class="col-3">
         </a>
         <a href="https://www.telangana.gov.in/Pages/Home.aspx" target="_blank">
             <img
-                class="ministry-logo"
+                class="adex-logo"
                 src="img/adex-footer.png"
                 title="Telangana"
             />
         </a>
         <a href="http://adex.org.in/" target="_blank">
             <img
-                class="adex"
+                class="adex-logo adex"
                 src="img/adex-gray-logo.png"
                 title="ADeX"
             />
         </a>
         <a href="https://www.weforum.org/" target="_blank">
             <img
-                class="wef"
+                class="adex-logo"
                 src="img/wef.jpg"
                 title="ADeX"
             />

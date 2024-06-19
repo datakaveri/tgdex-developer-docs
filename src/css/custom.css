@@ -102,18 +102,11 @@
   }
 
   .adex-logo{
-    width: 3rem;
-    margin-right: 12px;
+    width: auto !important;
   }
-
-  .ministry-logo{
-    width: 3rem;
-    margin-right: 12px;
-  }
-
-  .iisc-logo{
-    width: 5rem;
-    margin-right: 12px;
+  .adex-logo.adex{
+    width: 4rem;
+margin-top: 10px;
   }
 
   .connect-with-us{
