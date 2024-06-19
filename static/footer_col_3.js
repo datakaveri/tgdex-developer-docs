@@ -8,7 +8,7 @@ module.exports = `<div class="col-3">
                 title="IISc Bangalore"
             />
         </a>
-        <a href=""https://www.telangana.gov.in/Pages/Home.aspx" target="_blank">
+        <a href="https://www.telangana.gov.in/Pages/Home.aspx" target="_blank">
             <img
                 class="ministry-logo"
                 src="img/adex-footer.png"
