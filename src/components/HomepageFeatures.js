@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        How to register with IUDX?        
+        How to register with ADeX?        
       </>
     ),
   },
@@ -19,17 +19,17 @@ const FeatureList = [
     Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
-        How to connect your applications with IUDX?
+        How to connect your applications with ADeX?
       </>
     ),
   },
   {
-    title: 'Add your data resources to IUDX',
+    title: 'Add your data resources to ADeX',
     link:"../../docs/Provider/provider_register_catalogue_item",
     Svg: require('../../static/img/datasets.svg').default,
     description: (
       <>
-		How to add data resources and manage them using IUDX? 
+		How to add data resources and manage them using ADeX? 
       </>
     ),
   },
@@ -44,12 +44,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Contribute to IUDX',
+    title: 'Contribute to ADeX',
     link:"https://github.com/datakaveri",
     Svg: require('../../static/img/Api.svg').default,
     description: (
       <>
-		Get into the world of IUDX and start your contribution to the world of OpenSource to improvise IUDX
+		Get into the world of ADeX and start your contribution to the world of OpenSource to improvise ADeX
       </>
     ),
   },

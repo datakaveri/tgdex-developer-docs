@@ -129,7 +129,7 @@ const config = {
                       <div class="logo-address-col">
                         <div class="place">
                           <a href="https://goo.gl/maps/sHqNUTRGFDmD2kbX8" target="_blank">
-                            <img src="img/location.png" />
+                            <img src="img/location.svg" />
                             <span>
                               Ground Floor, Indian Institute of Science,<br>
 			      Entrepreneurship Centre Road, Entrepreneurship Centre,<br>
@@ -145,24 +145,24 @@ const config = {
 						title: 'Important Links',
 						items: [
 							{
-								label: 'IUDX Home',
-								to: 'https://iudx.org.in/'
+								label: 'ADeX Home',
+								to: 'https://adex.org.in/'
 							},
 							{
 								label: 'Datasets Catalogue',
-								to: 'https://catalogue.iudx.org.in/'
+								to: 'https://dataexplorer.ts.adex.org.in/'
 							},
 							{
 								label: 'Provider Dashboard',
-								to: 'https://publisher.iudx.org.in/'
+								to: 'https://dataexplorer.ts.adex.org.in/aip'
 							},
 							{
 								label: 'Consumer Dashboard',
-								to: 'https://consumer.iudx.org.in/'
+								to: 'https://dataexplorer.ts.adex.org.in/aiu'
 							},
 							{
 								label: 'Community Forum',
-								to: 'https://forum.iudx.org.in/'
+								to: 'https://forum.adex.org.in//'
 							}
 						]
 					},
@@ -171,23 +171,23 @@ const config = {
 						items: [
 							{
 								label: 'Sandbox',
-								to: 'https://sandbox.iudx.org.in/'
+								to: 'https://sandbox.adex.org.in/'
 							},
 							{
 								label: 'Documentation',
-								to: 'https://docs.iudx.org.in/'
+								to: 'https://docs.adex.org.in/'
 							},
 							{
 								label: 'Catalogue Server API Docs',
-								to: 'https://api.catalogue.iudx.org.in/apis'
+								to: 'https://ts.adex.org.in/cat/apis'
 							},
 							{
 								label: 'Resource Server API Docs',
-								to: 'https://rs.iudx.org.in/apis'
+								to: 'https://rs.ts.adex.org.in/apis'
 							},
 							{
 								label: 'Authorization Server API Docs',
-								to: 'https://authorization.iudx.org.in/apis'
+								to: 'https://ts.adex.org.in/auth/apis'
 							}
 						]
 					},
@@ -201,7 +201,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `© ${new Date().getFullYear()} IUDX.`
+				copyright: `© ${new Date().getFullYear()} ADeX.`
 			},
 			prism: {
 				theme: lightCodeTheme,

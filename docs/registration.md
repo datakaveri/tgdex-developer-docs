@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Introduction
 
-All users of the IUDX platform must be registered and authenticated to perform any secure operation offered by the platform. The details of these secure operations are defined and explained by all IUDX components in their repective API documentation. The registration process of a guest user on the IUDX platform is a simple three step process as outlined below:
+All users of the ADeX platform must be registered and authenticated to perform any secure operation offered by the platform. The details of these secure operations are defined and explained by all ADeX components in their repective API documentation. The registration process of a guest user on the ADeX platform is a simple three step process as outlined below:
 
 1. [Creating the Account](#1-account-creation)
 2. [Verifying the Email Address](#2-email-verification)
@@ -52,7 +52,7 @@ Once email verification is complete, you can now choose the roles you would like
 
 Users who require the provider role would need to give some extra information regarding the organization they are associated with. 
 
-**NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Provider Panel once they have been approved by the admin of the Resource Server they have chosen. Providers who are waiting for approval may connect with the point of contact in IUDX to expedite the approval process.**.
+**NOTE: Provider registration is subject to approval. A user registered with the provider role may be able to access the Provider Panel once they have been approved by the admin of the Resource Server they have chosen. Providers who are waiting for approval may connect with the point of contact in ADeX to expedite the approval process.**.
 
 ![Choosing provider role](../resources/auth/prov-role.png)<br/>
 *Choosing provider role*
