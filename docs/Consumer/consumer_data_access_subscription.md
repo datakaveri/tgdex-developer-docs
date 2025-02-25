@@ -4,7 +4,7 @@ sidebar_position: 5
  
  
 # Data Access through Subscription
-To register subscription, a user must request for consent from the `provider`, obtain a [token](./consumer_obtaining_access_token.md) from IUDX Auth server and then access the [Subscription API](https://rs-test.iudx.io/apis#tag/Data-Subscriber).
+To register subscription, a user must request for consent from the `provider`, obtain a [token](./consumer_obtaining_access_token.md) from ADeX Auth server and then access the [Subscription API](https://rs-test.iudx.io/apis#tag/Data-Subscriber).
 
 ### Obtaining token to *Subscribe* a resource
 A `consumer` can obtain a token using the [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token) with the following request body. Make sure that the appropriate `resource` (or) `resource_group` id is used to obtain a token.
@@ -29,7 +29,7 @@ A `consumer` can obtain a token using the [Create Token APIs](https://authorizat
 }
 ```
 
-It is to be noted that unless an explicit `policy` for subscription is specified by the `Provider` in the `IUDX Authorisation Server` a  `consumer` will not obtain any access token.
+It is to be noted that unless an explicit `policy` for subscription is specified by the `Provider` in the `ADeX Authorisation Server` a  `consumer` will not obtain any access token.
 
  
 ### Creating a new subscription

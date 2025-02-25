@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-The `IUDX Auth Consumer APIs` allows a `consumer` to request and obtain tokens to access `open` and `secure` resources. Access information related to a resource can be understood via the [Consumer Panel](https://consumer.iudx.org.in/)
+The `ADeX Auth Consumer APIs` allows a `consumer` to request and obtain tokens to access `open` and `secure` resources. Access information related to a resource can be understood via the [Consumer Panel](https://consumer.iudx.org.in/)
 
 ## Registration
 

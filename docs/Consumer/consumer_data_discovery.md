@@ -7,7 +7,7 @@ sidebar_position: 2
 With the help of [Catalogue APIs](https://api.catalogue.iudx.org.in/apis), a `consumer` can access information related to availability of a resource using `spatial`, `attribute`, `text` and `relationship` search.
 
 
-## Using IUDX Catalogue UI
+## Using ADeX Catalogue UI
 
 A `consumer` can also use the [Catalogue UI](https://catalogue.iudx.org.in/) to discover resources. 
 

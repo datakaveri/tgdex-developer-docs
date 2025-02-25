@@ -5,7 +5,7 @@ sidebar_position: 5
 # Manage Data Ingestion
 
 ## Obtain Token to Ingest Data
-To register a resource in the IUDX Resource Server, a provider should obtain a token using IUDX Authorization Servers [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token).
+To register a resource in the ADeX Resource Server, a provider should obtain a token using ADeX Authorization Servers [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token).
 
 To obtain a token, a provider can either specify their `clientId` and `clientSecret` in the header or specify a token header. The `clientId` and `clientSecret` are generated for a provider on their [Successful Registration](https://docs.iudx.org.in/docs/registration#successful-registration-and-client-id-client-secret).
 
@@ -19,7 +19,7 @@ A provider can obtain a token using the [Create Token APIs](https://authorizatio
 ```
 
 ## Register Resource in Resource Server
-On successfully obtaining a [Data Ingestion Token](https://docs.iudx.org.in/docs/Provider/provider_register_resource_server#obtain-token-to-ingest-data), a provider can register a resource in the IUDX Resource Server for data ingestion.
+On successfully obtaining a [Data Ingestion Token](https://docs.iudx.org.in/docs/Provider/provider_register_resource_server#obtain-token-to-ingest-data), a provider can register a resource in the ADeX Resource Server for data ingestion.
 
 ### Register a Resource Group
 The [Register Ingestion API](https://rs.iudx.org.in/apis#operation/registeradapter) is used to register a data ingestion at a `resource_group` level, with the [Data Ingestion Token](https://docs.iudx.org.in/docs/Provider/provider_register_resource_server#obtain-token-to-ingest-data) as a header parameter and the following request body.
