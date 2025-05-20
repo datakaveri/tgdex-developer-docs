@@ -13,7 +13,7 @@ const config = {
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
-	favicon: 'img/adex-short.png',
+	favicon: 'img/TGDeX.svg',
 	organizationName: 'TGDeX', // Usually your GitHub org/user name.
 	projectName: 'TGDeX', // Usually your repo name.
 
@@ -62,15 +62,15 @@ const config = {
 								href: '/docs/registration'
 							},
 							{
-								label: 'AIU',
+								label: 'Explorer',
 								href: '/docs/Consumer/consumer'
 							},
 							{
-								label: 'AIP',
+								label: 'Contributor',
 								href: '/docs/Provider/provider'
 							},
 							{
-								label: 'Delegate',
+								label: 'Administrator',
 								href: '/docs/Delegate/delegate'
 							}
 						]
@@ -201,7 +201,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `© ${new Date().getFullYear()} ADeX.`
+				copyright: `© ${new Date().getFullYear()} TGDeX.`
 			},
 			prism: {
 				theme: lightCodeTheme,
