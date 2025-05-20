@@ -8,14 +8,14 @@ const foot = require('./static/footer_col_3');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'ADeX Documentation',
-	tagline: 'Learn about exploring, building , deploying your apps with ADeX',
-	url: 'https://docs.adex.org.in/',
+	tagline: 'Learn about exploring, building , deploying your apps with TGDeX',
+	url: 'https://docs.tgdex.iudx.io/',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/adex-short.png',
-	organizationName: 'ADeX', // Usually your GitHub org/user name.
-	projectName: 'ADeX', // Usually your repo name.
+	organizationName: 'TGDeX', // Usually your GitHub org/user name.
+	projectName: 'TGDeX', // Usually your repo name.
 
 	presets: [
 		[
@@ -25,13 +25,13 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo docs
 					editUrl:
-						'https://github.com/datakaveri/adex-developer-docs/blob/main/'
+						'https://github.com/datakaveri/tgdex-developer-docs/blob/main/'
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo blog
 					editUrl:
-						'https://github.com/datakaveri/adex-developer-docs/blog/'
+						'https://github.com/datakaveri/tgdex-developer-docs/blog/'
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css')
