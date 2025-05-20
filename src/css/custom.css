@@ -22,18 +22,18 @@
   }
 
 :root{
-  --ifm-color-primary: #0a9;
-  --ifm-color-primary-dark: #0a9;
-  --ifm-color-primary-darker: #0a9;
-  --ifm-color-primary-darkest: #0a9;
-  --ifm-color-primary-light: #0a9;
-  --ifm-color-primary-lighter: #0a9;
-  --ifm-color-primary-lightest: #0a9;
+  --ifm-color-primary: #076b61;
+  --ifm-color-primary-dark: #076b61;
+  --ifm-color-primary-darker: #076b61;
+  --ifm-color-primary-darkest: #076b61;
+  --ifm-color-primary-light: #076b61;
+  --ifm-color-primary-lighter: #076b61;
+  --ifm-color-primary-lightest: #076b61;
   --ifm-code-font-size: 95%;
   }
   html[data-theme = 'dark']{
-    --ifm-color-primary-dark: #0a9;
-    --ifm-color-primary-darker: #0a9;
+    --ifm-color-primary-dark: #076b61;
+    --ifm-color-primary-darker: #076b61;
   }
 
   .docusaurus-highlight-code-line {
@@ -78,7 +78,7 @@
     font-size: 12px;
     border-radius: 25%;
     fill: white;
-    background-color: #0a9;
+    background-color: #076b61;
     padding: 8px;
     width: 28px;
     height: 28px;
@@ -115,7 +115,7 @@
   .connect-with-us{
     text-align: center;
     margin-top: 1.3rem;
-    color: #0a9;
+    color: #076b61;
   }
 
   .mailto{
@@ -123,7 +123,7 @@
   }
 
   .mailto a{
-    color: #0a9;
+    color: #076b61;
   }
 
   .hr-w-75 {
@@ -136,7 +136,7 @@
   }
 
   .footer__title{
-    color: #0a9;
+    color: #076b61;
   }
 
 
