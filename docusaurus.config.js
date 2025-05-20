@@ -7,7 +7,7 @@ const foot = require('./static/footer_col_3');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'ADeX Documentation',
+	title: 'TGDeX Documentation',
 	tagline: 'Learn about exploring, building , deploying your apps with TGDeX',
 	url: 'https://docs.tgdex.iudx.io/',
 	baseUrl: '/',
