@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Introduction
 
-All users of the ADeX platform must be registered and authenticated to perform any secure operation offered by the platform. The details of these secure operations are defined and explained by all ADeX components in their repective API documentation. The registration process of a guest user on the ADeX platform is a simple three step process as outlined below:
+All users of the TGDeX platform must be registered and authenticated to perform any secure operation offered by the platform. The details of these secure operations are defined and explained by all TGDeX components in their repective API documentation. The registration process of a guest user on the TGDeX platform is a simple three step process as outlined below:
 
 1. [Creating the Account](#1-account-creation)
 2. [Verifying the Email Address](#2-email-verification)
