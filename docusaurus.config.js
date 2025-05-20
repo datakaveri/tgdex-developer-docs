@@ -49,7 +49,7 @@ const config = {
 				title: '',
 				logo: {
 					alt: 'My Site Logo',
-					src: 'img/adex-logo.png'
+					src: 'img/TGDeX.svg'
 				},
 				items: [
 					{
@@ -82,7 +82,7 @@ const config = {
 					//   label: 'Getting Started',
 					// },
 					{
-						href: 'https://github.com/datakaveri/adex-developer-docs',
+						href: 'https://github.com/datakaveri/tgdex-developer-docs',
 						label: 'GitHub',
 						position: 'right'
 					}
