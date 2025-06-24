@@ -6,7 +6,7 @@ sidebar_position: 3
 # Obtaining Access Token
 To access a resource after discovering from the `catalogue`, a `consumer` should obtain Access Token using ADeX Authorisation Servers [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token). 
 
-A `consumer` can use the `clientID` and `clientSecret` obtained through [Registration](../registration.md)
+A `consumer` can use the `clientID` and `clientSecret` obtained through [Registration](../overview.md)
 
 ## Obtaining token for an *OPEN* resource?
 After discovering an `Open` resource from `Catalogue`, a consumer can obtain a token using the [Create Token APIs](https://authorization.iudx.org.in/apis#operation/post-auth-v1-token) with the following request body. Make sure that the appropriate resource server `id` is used to obtain a token.

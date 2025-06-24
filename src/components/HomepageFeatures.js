@@ -4,12 +4,12 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Getting Started',
-    link:"../../docs/registration",
+    title: 'Overview and Purpose',
+    link:"../../docs/overview",
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        How to register with TGDeX?        
+        Overview of TGDEX and how to best use this guide.
       </>
     ),
   },
