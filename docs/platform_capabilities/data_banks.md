@@ -1,9 +1,14 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
+# Platform Capabilities (Data Banks/AI Models/Use cases/Sandbox IDE)
 
-# Data Banks
+This section details how users can discover, access and leverage TGDeX’s core capabilities—Data Banks, AI Models, Use cases and the Sandbox IDE. It explains the search, sort and filter tools that simplifies finding the right data banks, AI models or use cases, and outlines the steps for uploading new assets or downloading existing ones. Finally, it also shows how to import and work with these assets inside the Sandbox IDE, enabling users to prototype, test and deploy AI-driven solutions in a unified environment.
+
+---
+
+## Data Banks
 
 Data Banks are collections of datasets made available on TGDeX. These may include information like health records, satellite imagery, public service logs, or other structured/unstructured data that can be used for analysis, research, or building AI solutions.
 
@@ -11,55 +16,43 @@ Data Banks are collections of datasets made available on TGDeX. These may includ
 
 ## Data Banks Listing Page
 
-The Data Banks Listing page offers a consolidated view of all available Data Banks, complete with:
+The Data Banks Listing page offers a consolidated view of all available Data Banks, complete with a search bar, sorting options and a collapsible filter panel (by organization type, department, access status and more) to help users pinpoint relevant assets. Each Data Bank is presented as a card showing its title, publisher, readiness score, file type, access level and a brief description, with a “View Data Bank” button to access full details or download options.
 
-- **Search bar**
-- **Sorting options**
-- **Collapsible filter panel** (by organization type, department, access status, and more)
+![Data Bank Listing Page](./img/fig_data_bank_listing_page.png)
 
-Each Data Bank is presented as a card showing:
-- Title
-- Publisher
-- Readiness score
-- File type
-- Access level
-- Brief description
-- "View Data Bank" button to access full details or download options
-
-![Screenshot of Data Bank Listing Page](./img/fig41.png)
-
-### Search Bar
-- Positioned at the top of the Data Bank Listing page
-- Lets users enter keywords to quickly locate specific Data Banks
-- Offers instant suggestions and filters the displayed cards to match titles, descriptions, or tags
-
-![Sample Search](./img/fig42.png)
+### Data Banks Search Bar
+Positioned at the top of the Data Bank Listing page, the search bar lets users enter keywords to quickly locate specific Data Banks. As users type, it offers instant suggestions and filters the displayed cards to match titles, descriptions or tags, streamlining the discovery process.
+![Data Banks Search Bar](./img/fig_data_bank_search_bar.png)
 
 ### Sort Feature
-Reorder the Data Bank cards based on:
-- **A–Z / Z–A**: Alphabetical ordering by Data Bank title
-- **Latest Addition**: Most recently published Data Banks first
-- **Popular Downloads**: Ranks by download count
+The sort feature lets users reorder the Data Bank cards based on different criteria:
+- **A–Z / Z–A**: Alphabetical ordering by Data Bank title.
+- **Old to New/New to Old**: Shows Data Banks in ascending/descending order of upload date.
+- **Popular Downloads**: Ranks Data Banks by download count to highlight the most-used resources at the top.
 
-![Sort Feature Example](./img/fig43.png)
+![Sort Feature](./img/fig_sort_feature.png)
 
 ### Filter Feature
-The filter panel is divided into several sections:
+The filter panel is divided into several sections, each allowing users to narrow the Data Bank listing according to specific criteria:
+- Organization Type:
+    - All: Includes Data Banks from every source.
+    - Public: Data Banks published by government departments or publicly funded entities.
+    - Private: Data Banks contributed by private companies or startups.
+    - Academic Institution: Data Banks originating from universities and research institutes.
+    - Other: Data Banks from NGOs, community groups or any other type of organization.
+- Industry: Applying an industry filter limits results to Data Banks tagged under those sectors. Type to search or select one or more industries— such as Healthcare, Financial Services, Agriculture, Manufacturing, Energy, Education and more.
+- Access Status:
+  - Open: Publicly available Data Banks with immediate download access.
+  - Restricted: Data Banks requiring approval or elevated permissions to download.
+- File Type: Choose from formats like CSV, PDF, TXT, Shapefile, image files etc. Selecting multiple types returns any Data Bank offering at least one of the chosen formats.
+- Data Readiness: Use predefined ranges (e.g., 0–20%, 20–40%, 40–60%, 60–80% and greater than 80%) to filter by data readiness and usability of data bank to build AI models. Higher readiness score indicates more fully documented and clean Data Banks.
+- Last Updated: Restrict results to data banks updated in last 7 days, last 30 days, last 1 year or within a custom date range.
 
-| Filter           | Options/Description                                                                 |
-|------------------|------------------------------------------------------------------------------------|
-| Organization Type| All, Public, Private, Academic Institution, Other                                  |
-| Industry         | Type to search or select one or more industries (e.g., Healthcare, Education, etc.) |
-| Access Status    | Open, Restricted                                                                   |
-| File Type        | CSV, PDF, TXT, Shapefile, image files, etc. (multi-select)                         |
-| Data Readiness   | 0–20%, 20–40%, 40–60%, 60–80%, >80%                                                |
-| Last Updated     | Last 7 days, Last 30 days, Last 1 year, Custom date range                          |
-
-![Filter Feature Example](./img/fig44.png)
+![Filter Feature](./img/fig_filter_options.png)
 
 ### Data Bank Card
 Each Data Bank card provides a snapshot of key information:
-- **Access Status**: "Open" or "Restricted" badge
+- **Access Status** - "Open" or "Restricted" badge
 - **Publishing Organization**
 - **Title**
 - **Short description**
@@ -67,9 +60,9 @@ Each Data Bank card provides a snapshot of key information:
 - **Data Readiness score**
 - **File format**
 - **Last updated date**
-- **Action Button**: "View Data Bank"
+- **Action Button**: "View Data Bank” to open the full details and download options.
 
-![Data Bank Cards](./img/fig45.png)
+![Data Bank Card](./img/fig_data_bank_cards.png)
 
 ---
 
@@ -79,106 +72,96 @@ Each data bank comprises a comprehensive metadata panel that describes the asset
 
 **Metadata fields shown:**
 - **Title**: Name of the data bank
-- **Long description**: In-depth narrative about the Data Bank, including context, potential use cases, ideal audience, and possible analyses
-- **Organisation**: Owner of the published data bank
-- **Industry**: Sector classification (e.g., healthcare, mobility)
-- **Uploaded By**: User or team who submitted the Data Bank
-- **Geo Coverage**: Geographic extent (e.g., "State-level (Telangana)")
-- **Year Range**: Temporal span of the records (e.g., 2018–2024)
-- **Data Bank Permission**: Access level—Open or Restricted
-- **Last Updated**: Date and time of the most recent update
-- **File Format**: Downloadable format(s) (e.g., CSV, TXT, PDF)
-- **License**: Legal terms (e.g., Telangana Open Health Data License v1.0)
-- **Upload Frequency**: How often the data bank is updated
-- **Data Readiness**: Score reflecting completeness, documentation, and cleanliness
-- **Verified By**: Reviewer/approver (typically the Organisation Manager)
+- **Long description**: The long description section provides an in-depth narrative about the Data Bank, offering context that goes beyond the basic metadata fields. It can outline the type of records (e.g., antenatal visit history, diagnostic results, vital signs) and the data sources (such as public health centers or hospitals). It can also suggest potential use cases, ideal audience and indicate on type on possible analyses that can be performed using the data bank.
+- **Organisation**: The government department, agency or entity that has the ownership of the published data bank.
+- **Industry**: The sector classification such as, healthcare, mobility etc. that indicates the data bank’s primary domain.
+- **Uploaded By**: The user or team (or their organisation) that submitted the Data Bank to TGDeX.
+- **Geo Coverage**: The geographic extent of the data (e.g., “State-level (Telangana)”).
+- **Year Range**: The temporal span of the records contained in the data bank (e.g., 2018–2024).
+- **Data Bank Permission**: Access level—Open (no restrictions) or Restricted (requires approval)—that governs download and use.
+- **Last Updated**: Date and time when the Data Bank was most recently refreshed.
+- **File Format**: The downloadable format(s) provided (e.g., CSV, TXT, PDF).
+- **License**: The legal terms under which the Data Bank is made available (e.g., Telangana Open Health Data License v1.0).
+- **Upload Frequency**: How often the data bank is updated (e.g., Quarterly, Monthly, One-time).
+- **Data Readiness**: A data readiness score (percentage) that reflects completeness, documentation and cleanliness of the data bank.
+- **Verified By**: The role or individual—typically the Organisation Manager—who reviewed and approved the Data Bank for publication.
 
-![Data Bank Details Page](./img/fig46.png)
+![Data Bank Details](./img/fig_data_bank_details.png)
 
 ### Data Bank Details & Preview
-This page is split into two main areas:
-
-- **Version Files panel (left):**
-  - Collapsible list of all available file versions and associated files
-  - File size, last updated timestamp, and license displayed for selected file
-- **Data Bank Viewer (right):**
-  - **Preview Table:** Interactive snapshot of the dataset (first few rows/columns)
-  - **Column Descriptors Toggle:** Displays key statistics for each column (data type, record count, min, max, mean, std. dev.)
-
-![Data Bank Preview](./img/fig47.png)
+This page is split into two main areas - Version Files panel on the left and the Data Bank Viewer on the right.
+- **Left Panel**:
+  - Version Files: A collapsible list of all available file versions and associated file (e.g. annotation files of corresponding data bank). Users can expand folders and click individual files to download.
+  - File size: Size of the selected file in the data bank is displayed here.
+  - Last Updated: Timestamp of the upload date and time of the selected file is displayed.
+  - License: The data license governing use.
+- **Right Panel**:
+  - Preview Table: An interactive snapshot of the dataset showing first few rows and columns of the selected data bank file.
+  - Column Descriptors Toggle: Enabling this option displays key statistics for each column—such as data type, record count, minimum, maximum, mean and standard deviation—so users can quickly assess the dataset’s structure and quality.
+  ![Data Bank Preview](./img/fig_data_bank_preview.png)
 
 ### Data Visualization
-The Visualization panel lets users create basic charts directly from the Data Bank—no coding required.
+The Visualization panel lets users create basic charts directly from the Data Bank—no coding required. By selecting one or more columns as the X-axis (dimensions) and additional columns as series (metrics), users can generate column, line or pie charts. Download button also enables users to export the chart. Key components:
 
-- **Chart Type Selector:** Column, Line, or Pie charts
-- **X-Axis / Series Picks:** Add dimensions and metrics
-- **Download:** Export visualization as an image
+- **Chart Type Selector:** Choose between Column, Line or Pie charts.
+- **X-Axis / Series Picks:** Click Add dimension to set the horizontal axis, add series to plot one or more metrics.
+- **Download:** Export visualization as an image.
 
-![Data Bank Visualization](./img/fig48.png)
+![Data Bank Visualization](img/fig_data_bank_visualization.png)
 
 ---
 
 ## Data Bank Upload
 
-### Step 1: Set Up Data Bank
+### Step 1: Click on **Start adding Data Bank** and set up your data bank:
 1. **Enter Title & Permission:**
-   - Data Bank Title: Clear, descriptive name
-   - Data Bank Permission: Choose from:
+   - **Data Bank Title**: Give your dataset a clear, descriptive name.
+   - **Data Bank Permission**: Choose from following in the drop down:
      - Open: Viewable/downloadable by all registered users
-     - Restricted: Downloadable only upon publisher's approval
-     - Private: Not viewable/downloadable by anyone (personal use)
+     - Restricted: Users can view data bank but downloadable only upon publisher’s approval
+     - Private: Data Bank is not viewable/ downloadable by anyone, meant for personal use
 2. **Choose Metadata Entry Method:**
    - Enter Metadata Manually: Fill in all fields via the form
    - Import from JSON: Upload your metadata using an existing template file
 
-![Step 1: Data Bank Upload](./img/fig49.png)
+![Clicking on Start adding Data Bank](./img/fig_start_adding_data_bank.png)
+![Set up your data bank](./img/fig_set_up_your_data_bank.png)
 
 ### Step 2: Enter Metadata Information
-Fill out each mandatory field:
-- **Short Description**: One- or two-sentence summary
-- **Tags**: Add tags (e.g., "Community Health," "Satellite Imagery")
-- **Long Description**: In-depth narrative, context, use cases, audience, analyses
-- **Organisation**: Owner of the data bank
-- **Industry**: Sector classification
-- **Year Range**: Temporal span (e.g., 2018–2024)
-- **Data Bank Type**: Structured/semi-structured/unstructured
-- **Uploaded By**: Autofilled
-- **Upload Frequency**: How often data will be updated
-- **Geo Coverage**: Geographic extent
-- **License**: Legal terms
-- **Organisation Type**: Public, Private, Academic, or Other
-- **File Format**: Format of uploaded file(s)
-- **Link Related Assets**: Add associated Data Banks or AI Models
+1. Under metadata Information, fill out each mandatory field:
+   - **Short Description**: A one- or two-sentence summary of the data bank’s content and purpose.
+   - **Tags**: Add tags (e.g., "Community Health," "Satellite Imagery") to aid discovery.
+   - **Long Description**: Provide an in-depth narrative about the Data Bank, offering context that goes beyond the basic metadata fields. It can outline the type of records (e.g., antenatal visit history, diagnostic results, vital signs) and the data sources (such as public health centers or hospitals). It can also suggest potential use cases, ideal audience and indicate on type on possible analyses that can be performed using the data bank.
+   - **Organisation**: The government department, agency or entity that has the ownership of the published data bank.
+   - **Industry**: The sector classification such as, healthcare, mobility etc. that indicates the data bank’s primary domain.
+   - **Year Range**: The temporal span of the records contained in the data bank (e.g., 2018–2024).
+   - **Data Bank Type**: Choose from catalogued types – structured/semi-structured/unstructured.
+   - **Uploaded By**: Autofilled using your existing details.
+   - **Upload Frequency**: How often the data will be updated (Daily, Weekly, Monthly, Annually, One-time).
+   - **Geo Coverage**: Geographic extent (e.g., State-level Telangana).
+   - **License**: Legal terms governing reuse.
+   - **Organisation Type**: Public, Private, Academic, or Other
+   - **File Format**: Format of data bank file which is being uploaded (CSV, TXT, PDF, GeoJSON, Shapefile, etc.).
+   - **Link Related Assets**: Add Associated Data Banks or Add Associated AI Models to create pre-defined connections between your new Data Bank and other platform content.
 
-![Step 2: Metadata Information](./img/fig50.png)
+![Adding Metadata Information](img/fig_adding_metadata_information.png)
 ![Step 2: Add Tags Example](./img/fig51.png)
 
 ### Step 3: Upload Data Bank
-- Upload relevant files according to the selected file format
-- Use "Upload More" to add multiple files
-- Use "Clear All" to delete previously uploaded files and upload new ones
-
-![Step 4: Review and Publish](./img/fig52.png)
-
-<!-- ![Step 3: Uploading Data](./img/fig51.png) -->
+The user should upload the relevant files according to the file format selected in Step 2. Users can upload multiple files using the "Upload More" button. Additionally, users can clear or delete any previously uploaded files and upload new files or an entirely new set using the **Clear All** button.
+![Uploading Data](img/fig_uploading_data.png)
 
 ### Step 4: Review and Publish
-- Review all metadata fields, tags, and uploaded files
-- Preview structured data (if available)
-- Move back to correct any information if needed
-- Click **Publish** when everything is correct
-
-![Starter SDK Download Section](./img/fig_sdk_download.png)
+After your files finish uploading, you’ll be taken to a summary page displaying all metadata fields and tags you entered, list of uploaded files and their preview (if uploaded data is structured). Carefully verify each detail—move back to the respective section to correct any information. When everything looks correct, click Publish.
 
 ### Step 5: Approval
-- Approval requests are sent to the Organisation Manager
-- Once approved, the data bank is published on the TGDeX Data Bank listing page
+Approval requests are sent to the Organisation Manager for review. Once they approve, the data bank gets published on the TGDeX Data Bank listing page.
 
 ---
 
 ## Data Bank Download
 
-Depending on a Data Bank's permission level, the steps to download differ:
+Depending on a Data Bank's permission level, the steps to download differ slightly:
 
 - **Open Data Banks:**
   1. Click the **Download** button on the data bank details page
@@ -186,28 +169,28 @@ Depending on a Data Bank's permission level, the steps to download differ:
 
 - **Restricted Data Banks:**
   1. Click the **Request Access** button on the data bank details page
-  2. Fill out the request form with a brief justification
+  2. A request form pops up; add a brief justification for why you need access.
   3. Submit the request—TGDeX notifies the data bank's publisher
-  4. Once approved, you'll receive an email notification, and a **Download** button appears
+  4. Once approved, you'll receive an email notification, and a **Download** button appears in the details page.
   5. Click **Download** to retrieve the full Data Bank
-
+  
+![Downloading Restricted Data Banks](img/fig_downloading_restricted_data_banks.png)
 ---
 
 ## Using Data Bank in Sandbox IDE
 
 Once the Sandbox IDE has been instantiated, you will see a templated starter notebook with the following information:
 
-- Type of notebook instance (CPU only or GPU instance)
-- Available resources (CPU cycles, RAM, VRAM for GPU)
+- Type of notebook instance - CPU only or GPU instance
+- The available resources for that notebook - Available CPU cycles and Available RAM, Available VRAM (in case of GPU notebook)
 - Started TGDeX SDK instantiated (with imports)
 
-The started TGDeX SDK requires you to input your credentials and the databank of interest, and fetches the databank into your workspace.
+The started TGDeX SDK requires you to input your credentials and the databank of interest and fetches the Databank of interest into your workspace.
 
-> **Note:** The starter SDK section allows you to download a databank directly from your notebook.
+You can fetch Data Bank ID from the detail page of that particular data bank by clicking on copy icon.
+![Copying Data Bank ID](./img/fig_copying_data_bank_id.png)
+Figure below shows the section of the starter sdk which allows you to download a databank.
+![Downloading Data Bank in IDE](./img/fig_downloading_data_bank_in_ide.png)
+Once the fetching process is complete, you will find the databank of interest in the “In-Notebook” file interface as shown in the figure below.
 
-![Download Data Bank Example](./img/fig_download_databank.png)
-
-
-Once the fetching process is complete, you will find the databank in the "In-Notebook" file interface as shown below.
-
-![In-Notebook File Interface](./img/fig_in_notebook.png)
+![In-Notebook Interface](img/fig_databank_downloaded_in_in_notebook_interface.png)
