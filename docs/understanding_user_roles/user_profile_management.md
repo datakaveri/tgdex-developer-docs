@@ -1,6 +1,6 @@
 ---
 title: "User Profile Management"
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # User Profile Management

@@ -1,6 +1,6 @@
 ---
 title: "Publisher / Publisher with Compute"
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Publisher / Publisher with Compute

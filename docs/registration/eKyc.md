@@ -21,15 +21,15 @@ Users can complete their eKYC verification by following the steps outlined below
 *Redirecting to DigiLocker consent screen*
 
 **Step 3:** You will be redirected to the DigiLocker login screen. Enter your Aadhaar number and click **Next** to authenticate your identity.  
-*// Screenshot needed here*
-<!-- ![Entering Aadhaar details in DigiLocker](images/enter_aadhaar.png)  
-*Entering Aadhaar details in DigiLocker* -->
+
+![Entering mobile number in DigiLocker Page](images/enter_aadhaar.png)  
+*Entering mobile number in DigiLocker Page*
 
 **Step 4:** Once verified, your details will be securely fetched from DigiLocker. These include your name, phone number, date of birth, gender, and address.  
 Confirm that the retrieved details are correct, check the consent box to share your Aadhaar-linked information with TGDeX, and click **Submit Details**.  
 
-![Submitting KYC Verification Details](images/kyc_verify_detail.png)  
-*Submitting KYC Verification Details*
+![Submitting eKYC verification details](images/kyc_verify_detail.png)  
+*Submitting eKYC verification details*
 
 **Step 5:** After successful submission, you can verify your eKYC status under the **KYC Status** section in your profile. This screen displays:
 - Name
@@ -40,5 +40,5 @@ Confirm that the retrieved details are correct, check the consent box to share y
 
 If required, users can update their KYC by clicking **Update**, or revoke their verification by clicking **Delete**.  
 
-![Viewing KYC Status](images/kyc_status.png)  
-*Viewing KYC Status*
+![Viewing eKYC Status](images/kyc_status.png)  
+*Viewing eKYC Status*

@@ -20,7 +20,7 @@ If a user’s organization isn’t yet registered on TGDeX, the user can submit 
 - **Organisation Manager Details:**  
   Fill in your profile information such as name, organisation email, etc.
 
-- **Organisation Details:**  
+- **Enter Organisation Details:**  
   Provide details like entity type, sector, organisation name, website, and address.
 
 - **Upload Organisation Documents:**  
@@ -30,22 +30,18 @@ If a user’s organization isn’t yet registered on TGDeX, the user can submit 
     - Authorization document (stating that the user is authorized by their organisation to become an Organisation Manager on TGDeX and manage users and assets on its behalf)
     - Any other supporting document (optional)
 
-![Organisation Registration Form with document upload](images/registration_form_doc_upload.png)<br/>
-*Organisation Registration Form with document upload*
+![Organisation Registration Form - Organisation Manager Details](images/registration_form_doc_upload.png)<br/>
+*Organisation Registration Form - Organisation Manager Details*
+
+![Organisation Registration Form - Organisation Details](images/registration_form_org_details.png)<br/>
+*Organisation Registration Form - Organisation Organisation Details*
+
+![Organisation Registration Form - Upload Organisation Documents](images/registration_form_org_doc_upload.png)<br/>
+*Organisation Registration Form - Upload Organisation Documents*
 
 **Step 4:** Once the form is completed and documents uploaded, click Submit Details.
 
-[//]: # (![Accessing Join Organisation from the Dashboard]&#40;images/access_join_organisation.png&#41;<br/>)
-
-[//]: # (*Accessing Join Organisation from the Dashboard*)
-
 **Step 5:** A confirmation popup will appear indicating that the request has been successfully sent to the TGDeX Platform Administrator for review.
-
-[//]: # (![Accessing Join Organisation from the Dashboard]&#40;images/access_join_organisation.png&#41;<br/>)
-
-[//]: # (*Accessing Join Organisation from the Dashboard*)
-
-//need pic for this
 
 After the request is reviewed and approved, the user will be assigned the Organisation Manager role and can begin managing users and assets under the new organisation.
 

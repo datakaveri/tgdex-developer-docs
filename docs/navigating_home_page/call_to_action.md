@@ -10,9 +10,9 @@ At the bottom of the Home Page, a prominent banner prompts users to **Register N
 
 The footer reinforces the platform’s identity with quick navigation links:
 
-**TGDeX:** Home, About Us, Contact Us  
-**Platform Features:** Data Bank, AI Models, Potential Applications, Sandbox IDE, Toolsets, Library  
-**Help & Support:** Grievance, FAQ, User Manuals, Sitemap
+- **TGDeX:** Home, About Us, Contact Us  
+- **Platform Features:** Data Bank, AI Models, Potential Applications, Sandbox IDE, Toolsets, Library  
+- **Help & Support:** Grievance, FAQ, User Manuals, Sitemap
 
 It also includes:
 - The TGDeX logo with a brief description of the platform’s mission

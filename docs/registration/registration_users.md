@@ -10,31 +10,31 @@ sidebar_position: 1
 **Step 1:** Click **Register** on the Home Page.  
 
 ![Clicking Register button](images/register_button.png)  
-*Clicking Register button*
+*Click Register button*
 
-**Step 2:** Enter your full name and email address.  
+**Step 2:** Enter first name, last name and email address.  
 
 ![Entering Some Details](images/entering_some_details.png)  
-*Entering Some Details*
+*Enter first name, last name and email address*
 
 **Step 3:** Create a strong password that meets the on-screen requirements.  
 
 ![Creating Password](images/creating_password.png)  
-*Creating Password*
+*Creation of strong password*
 
 **Step 4:** Agree to the [Terms of Service](https://tgdex.telangana.gov.in/terms-of-service) and [Privacy Policy](https://tgdex.telangana.gov.in/privacy-policy) by checking the consent box. 
 
 ![Agreement](images/agreement.png)  
-*Agreement*
+*Agreement to Terms of Service and Privacy Policy of TGDeX*
 
 **Step 5:** Verify your email by clicking the link sent to your inbox.  
 
 ![Email Verification](images/email_verification.png)  
-*Email Verification*
+*Verification link sent*
 
 ![Email received on user’s entered email address](images/email_received.png)
 
-*Email received on user’s entered email address*
+*Verification email received in user's inbox*
 
 **Step 6:** Access your dashboard — after verification, you’ll be signed in automatically with the default **Consumer** role.  
 
