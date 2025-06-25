@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Platform Capabilities (Data Banks/AI Models/Use cases/Sandbox IDE)
