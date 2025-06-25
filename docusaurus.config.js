@@ -59,19 +59,7 @@ const config = {
 						items: [
 							{
 								label: 'New User',
-								href: '/docs/registration'
-							},
-							{
-								label: 'Explorer',
-								href: '/docs/Consumer/consumer'
-							},
-							{
-								label: 'Contributor',
-								href: '/docs/Provider/provider'
-							},
-							{
-								label: 'Administrator',
-								href: '/docs/Delegate/delegate'
+								href: '/docs/registration/registration_users'
 							}
 						]
 					},
@@ -145,12 +133,12 @@ const config = {
 						title: 'Important Links',
 						items: [
 							{
-								label: 'ADeX Home',
-								to: 'https://adex.org.in/'
+								label: 'TGDeX Home',
+								to: 'https://tgdex.telangana.gov.in/'
 							},
 							{
-								label: 'Datasets Catalogue',
-								to: 'https://dataexplorer.ts.adex.org.in/'
+								label: 'About TGDeX',
+								to: 'https://tgdex.telangana.gov.in/about-us'
 							},
 							{
 								label: 'Provider Dashboard',
