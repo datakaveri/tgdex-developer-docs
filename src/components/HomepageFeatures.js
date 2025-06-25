@@ -14,36 +14,6 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Discovering and Consuming datasets',
-    link:"../../docs/Consumer/consumer",
-    Svg: require('../../static/img/consuming_data.svg').default,
-    description: (
-      <>
-        How to connect your applications with TGDeX?
-      </>
-    ),
-  },
-  {
-    title: 'Add your data resources to TGDeX',
-    link:"../../docs/Provider/provider_register_catalogue_item",
-    Svg: require('../../static/img/datasets.svg').default,
-    description: (
-      <>
-		How to add data resources and manage them using TGDeX? 
-      </>
-    ),
-  },
-  {
-    title: 'Manage Access Control of your data resources',
-    link:"../../docs/Provider/provider_manage_policies",
-    Svg: require('../../static/img/provider.svg').default,
-    description: (
-      <>
-		How to manage a consumer request to a resource?      
-	  </>
-    ),
-  },
-  {
     title: 'Contribute to TGDeX',
     link:"https://github.com/datakaveri",
     Svg: require('../../static/img/Api.svg').default,
