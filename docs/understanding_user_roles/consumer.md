@@ -1,6 +1,6 @@
 ---
 title: "Consumer / Consumer with Compute"
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Consumer / Consumer with Compute

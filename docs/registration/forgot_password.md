@@ -5,13 +5,13 @@ sidebar_position: 3
 
 **Step 1:** Click **Forgot Password** on the Sign In page.  
 
-![Highlighting Forgot Password](images/forgot_password.png)  
-*Click on Forgot Password*
+![Clicking on Forgot Password](images/forgot_password.png)  
+*Clicking on Forgot Password*
 
 **Step 2:** Enter your email address and submit.  
 
-![Screenshot of form](images/enter_email_id.png)  
-*Screenshot of form*
+![Forgot Password Form](images/enter_email_id.png)  
+*Forgot Password Form*
 
 **Step 3:** Open the password reset email and click the provided link.  
 

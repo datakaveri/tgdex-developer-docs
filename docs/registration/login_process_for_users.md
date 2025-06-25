@@ -10,20 +10,12 @@ sidebar_position: 2
 
 **Step 2:** Enter your email address and password.
 
-![Screenshot of form](images/form_ss.png)  
-*Screenshot of form*
+![Form for Signing In](images/form_ss.png)  
+*Form for Signing In*
 
 **Step 3:** Enter the verification code sent to your email, then click **Submit**.
 
-[//]: # (![Clicking Register button](images/register_button1.png)
-*Clicking Register button*
-
-[//]: # (![Clicking Register button](images/register_button1.png)
-*Clicking Register button*
-
-<!-- // image for Step 3 missing-->
-
 **Step 4:** Access your dashboard — once verified, you’ll be redirected to the dashboard for your assigned role.  
 
-![Post login dashboard](images/post_login_dashboard.png)  
-*Post login dashboard*
+![Post-login consumer dashboard](images/post_login_dashboard.png)  
+*Post-login consumer dashboard*
