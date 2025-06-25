@@ -10,17 +10,3 @@ The Hero section welcomes users with the TGDeX tagline—“Where AI Meets Innov
 
 ![Hero section and Global search bar](images/hero_section_global_search_bar.png)  
 *Hero section and Global search bar Section*
-
-## Ecosystem Partners
-
-This section emphasizes TGDeX’s role as a unifying hub, where government, industry, and academia join forces to advance AI-driven innovation for Telangana.
-
-![Collaborators section with logos](images/collaborators_section_with_logos.png)  
-*Collaborators section with logos Section*
-
-## Core TGDeX Features
-
-This section introduces the four core pillars that power TGDeX’s data-driven innovation: Data Banks, AI Models, Potential Applications, and Sandbox IDE. Each pillar is represented by a clickable card—simply select **Explore…** to dive into the module of your choice.
-
-![The TGDeX Features](images/hero_section_global_search_bar.png)  
-*The TGDeX Features Section*
