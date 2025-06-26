@@ -18,7 +18,3 @@ The FAQs section provides quick answers to common questions about TGDeX features
 - **Sandbox IDE**: Assistance with creating notebooks, accessing compute, and using toolsets
 - **Organisations**: Joining or managing organisations and assigning roles
 - **Contact Us**: Support details for reaching the TGDeX helpdesk
-
-![fig93](./img/fig93.png)
-
-

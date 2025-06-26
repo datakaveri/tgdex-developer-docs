@@ -38,5 +38,3 @@ The **My Profile** section allows users to manage their personal information, ac
   - **Terms of Service Consent**: View or revoke agreement to the platform's terms
 
 > Users should regularly visit this section to keep their profile updated, manage their access, and ensure continued compliance with TGDeX policies.
-
-![User Profile Management Screen](./img/fig92.png)
