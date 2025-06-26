@@ -22,5 +22,13 @@ Consumers can:
 ## Consumer-specific Screens
 
 - View your personal dashboard
+
+![fig82](./img/fig82.png)
+
 - View/download activity history
+
+![fig82](./img/fig83.png)
+
 - View/Resume past projects
+
+![fig84](./img/fig84.png)

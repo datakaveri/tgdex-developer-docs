@@ -17,7 +17,11 @@ Publishers can:
 
 ## Additional Publisher-specific Screens
 
-- Upload new assets with metadata
-- Edit and manage draft assets
-- Monitor submission status and request approval
+- Upload new assets (Data bank/AI Models/Use cases) on platform
+- Manage uploaded assets 
+
+![fig85](./img/fig85.png)
+
 - Approve requests from users to download your assets
+
+![fig86](./img/fig86.png)
