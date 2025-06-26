@@ -1,6 +1,6 @@
 ---
 title: "Grievance Redressal System"
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Grievance Redressal System
@@ -16,17 +16,24 @@ The Grievance Management module leverages **osTicket**, an open-source ticketing
 ### Raising a Grievance
 
 1. Scroll down to the footer of the Telangana Data Exchange portal.
+
+![fig94](./img/fig94.png)
+
+
 2. Under **Help & Support**, click **"Raise a Grievance"**.
 
 > **Note:**
 > - **Registered users** must log in first.
 > - **Guest users** can proceed without registration; just provide your email to submit a ticket.
 
-![TGDeX Portal Footer](./img/fig_footer.png)
 
 ### Open a New Ticket
 
 1. Click the **Open a New Ticket** button.
+
+![Open a New Ticket Button](./img/fig95.png)
+
+
 2. **Help Topic**: Choose from categories such as:
     - Feedback
     - General Inquiry
@@ -35,8 +42,8 @@ The Grievance Management module leverages **osTicket**, an open-source ticketing
 4. **Ticket Details**: Provide complete information, including context and affected data, if any.
 5. **Upload**: Attach screenshots or documents to support your case.
 
-![TGDeX Portal Home Page](./img/fig_homepage.png)
-![Creating a Ticket](./img/fig_create_ticket.png)
+![Grievance Submission Form](./img/fig96.png)
+
 
 ---
 
@@ -45,6 +52,9 @@ The Grievance Management module leverages **osTicket**, an open-source ticketing
 - After submitting, you'll receive a confirmation message and an email with your ticket number.
 - If you **logged in** before raising the ticket: Click **"Tickets"** to view all your submitted tickets.
 - If you submitted as a **guest**: Click **"Check Ticket Status"**, enter your email and ticket number, and you'll receive a secure link via email to access your ticket.
+
+![Ticket Status Page](./img/fig97.png)
+
 
 ---
 
@@ -61,7 +71,8 @@ On the ticket status page, you’ll find:
 - **Subject**: The title/summary provided during creation.
 - **Department**: Team currently handling the grievance.
 
-![TGDeX Tickets Page](./img/fig_tickets_page.png)
+![Ticket Information Example](./img/fig98.png)
+
 
 ---
 
@@ -71,7 +82,6 @@ On the ticket status page, you’ll find:
 - The full conversation between you and the support agent will be displayed.
 - You can send follow-up messages or provide more information as needed.
 
-![TGDeX Tickets Thread](./img/fig_tickets_thread.png)
 
 ---
 
