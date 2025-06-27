@@ -24,3 +24,14 @@
   for = "/manifest.json"
   [headers.values]
     X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/assets/js/**"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
