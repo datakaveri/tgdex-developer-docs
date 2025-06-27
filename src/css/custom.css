@@ -4,13 +4,13 @@
 
 /* Base Infima overrides */
 :root {
-  --ifm-color-primary: #076b61;
-  --ifm-color-primary-dark: #076b61;
-  --ifm-color-primary-darker: #076b61;
-  --ifm-color-primary-darkest: #076b61;
-  --ifm-color-primary-light: #076b61;
-  --ifm-color-primary-lighter: #076b61;
-  --ifm-color-primary-lightest: #076b61;
+  --ifm-color-primary: #197a56;
+  --ifm-color-primary-dark: #197a56;
+  --ifm-color-primary-darker: #197a56;
+  --ifm-color-primary-darkest: #197a56;
+  --ifm-color-primary-light: #197a56;
+  --ifm-color-primary-lighter: #197a56;
+  --ifm-color-primary-lightest: #197a56;
   --ifm-code-font-size: 95%;
 }
 
