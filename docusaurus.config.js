@@ -55,6 +55,8 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/TGDeX.svg',
+          href: 'https://tgdex.telangana.gov.in/',
+          target: '_blank',
         },
         items: [],
       },
@@ -70,11 +72,13 @@ const config = {
               {
                 html: `
   <div class="footer__brand">
-    <img
-      src="${baseUrl}img/tgdex-green.svg"
-      alt="TGDeX Logo"
-      style="height:40px; margin-bottom:16px;"
-    />
+    <a href="https://tgdex.telangana.gov.in/" target="_blank" rel="noopener">
+      <img
+        src="${baseUrl}img/tgdex-green.svg"
+        alt="TGDeX Logo"
+        style="height:40px; margin-bottom:16px;"
+      />
+    </a>
     <p class="footer__text">
       The Telangana Data Exchange platform offers access to curated data banks, pre-trained AI models, and use cases — all in one place to empower secure data exchange and support development of AI-driven solutions.
     </p>
@@ -135,15 +139,37 @@ const config = {
         ],
         copyright: `
     <hr style="width:100%; margin:2rem 0; border:none; border-top:1px solid #ddd;" />
-    <div class="footer__bottom-content" style="display:flex; flex-direction:column; align-items:flex-start; gap:1rem;">
-      <div style="display:flex; align-items:vertically-inline; gap:0.5rem; margin-left:10rem; width:300px">
-        <span>Powered By: </span>
-        <img src="${baseUrl}img/emerging-tech.svg" alt="Emerging Technologies Logo" style="height:45px;" />
-      </div>
-      <div class="full-width-cta">
-        &copy; Government of Telangana
-      </div>
+<footer>
+  <!-- Flex row: Powered By + Privacy/Terms -->
+  <div class="footer__bottom-content">
+    <div class="footer__powered-by">
+      <span>Powered By:</span>
+      <img src="${baseUrl}img/emerging-tech.svg"
+           alt="Emerging Technologies Logo"
+           style="height:45px;" />
     </div>
+
+    <div class="footer__privacy-terms">
+      <a href="https://tgdex.telangana.gov.in/privacy-policy"
+         target="_blank"
+         rel="noopener">
+        Privacy Policy
+      </a>
+      <span>|</span>
+      <a href="https://tgdex.telangana.gov.in/terms-of-service"
+         target="_blank"
+         rel="noopener">
+        Terms of Service
+      </a>
+    </div>
+  </div>
+
+  <!-- Full-width © strip -->
+  <div class="full-width-cta">
+    &copy; Government of Telangana
+  </div>
+</footer>
+
   `,
       },
 
