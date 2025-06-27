@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TGDeX Documentation',
-  tagline: 'Learn about exploring, building , deploying your apps with TGDeX',
+  title: 'TGDeX User Manual',
+  tagline: 'Guide to navigating TGDeX platform features, roles, and support resources.',
   url: 'https://docs.tgdex.iudx.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -22,11 +22,6 @@ const config = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/datakaveri/tgdex-developer-docs/blob/main/',
-        },
         blog: {
           showReadingTime: true,
           editUrl:
@@ -39,7 +34,7 @@ const config = {
     ],
   ],
 
-  themes: ['docusaurus-theme-search-typesense'],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -61,30 +56,10 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/TGDeX.svg',
         },
-        items: [
-          {
-            href: 'https://github.com/datakaveri/tgdex-developer-docs',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        items: [],
       },
 
-      typesense: {
-        typesenseCollectionName: 'iudx',
-        typesenseServerConfig: {
-          nodes: [
-            {
-              host: 'typsense-test.iudx.io',
-              port: 443,
-              protocol: 'https',
-            },
-          ],
-          apiKey: 'xyz',
-          connectionTimeoutSeconds: 120,
-        },
-        typesenseSearchParameters: {},
-      },
+
 
       footer: {
                      style: 'light',

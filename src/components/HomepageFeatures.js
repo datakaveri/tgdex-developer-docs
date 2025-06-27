@@ -4,12 +4,12 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
 {
-    title: 'Getting Started',
+    title: 'Overview',
     link:"../../docs/overview",
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        An overview of TGDeX and guidance on utilizing this document.
+        Introduction, purpose, audience, and usage guide for TGDeX platform.
       </>
     ),
   },
@@ -19,46 +19,46 @@ const FeatureList = [
     Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
-        Explore the central features and functionalities available on the TGDeX Home Page.
+        Homepage layout, navigation options, features, and resources.
       </>
     ),
   },
   {
-    title: 'Login, eKYC, and Organization Enrollment',
+    title: 'Login/Registration for Users, eKYC, Joining Organizations',
     link:"../../docs/registration/registration_users",
     Svg: require('../../static/img/datasets.svg').default,
     description: (
       <>
-		An overview of account setup, identity verification, and organizational onboarding within TGDeX.
+		Stepwise registration, login, eKYC verification, and organization registration processes.
       </>
     ),
   },
   {
-    title: 'Exploring and Using TGDeX Assets',
+    title: 'Platform Capabilities (Data Banks/AI Models/Use cases/Sandbox IDE)',
     link:"../../docs/platform_capabilities/platform_capabilities",
     Svg: require('../../static/img/provider.svg').default,
     description: (
       <>
-        Learn how to discover, interact with, and utilize TGDeX’s core offerings through intuitive tools and the Sandbox IDE.	  </>
+        Discover, upload, manage, and download TGDeX platform assets.	  </>
     ),
   },
   {
-    title: 'User Roles and Access Levels',
+    title: 'Understanding User Roles',
     link:"../../docs/understanding_user_roles/understanding_user_roles",
     Svg: require('../../static/img/Api.svg').default,
     description: (
       <>
-        Brief on TGDeX roles and access progression.
+        Describes platform user roles, permissions, up-gradation process, and profile management.
       </>
     ),
   },
   {
-    title: 'Help & Support',
+    title: 'Accessing Help and Support Services',
     link:"../../docs/accessing_help_support_services/faq",
     Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>
-        User help through FAQs and a structured grievance redressal process.          </>
+        Find help using FAQs, submit tickets, or access support resources.         </>
     ),
   },
 ];
