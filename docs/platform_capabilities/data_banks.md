@@ -188,4 +188,3 @@ Figure below shows the section of the starter sdk which allows you to download a
 ![Downloading Data Bank in IDE](./img/fig_downloading_data_bank_in_ide.png)
 Once the fetching process is complete, you will find the databank of interest in the “In-Notebook” file interface as shown in the figure below.
 
-![In-Notebook Interface](img/fig_databank_downloaded_in_in_notebook_interface.png)
