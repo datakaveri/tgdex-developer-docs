@@ -40,5 +40,5 @@ Confirm that the retrieved details are correct, check the consent box to share y
 
 If required, users can update their KYC by clicking **Update**, or revoke their verification by clicking **Delete**.  
 
-![Viewing eKYC Status](images/kyc_status.png)  
+![Viewing eKYC Status](images/fig27.png)  
 *Viewing eKYC Status*
