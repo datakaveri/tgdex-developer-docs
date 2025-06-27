@@ -1,0 +1,6 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src  'self';"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
