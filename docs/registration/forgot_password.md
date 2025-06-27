@@ -10,7 +10,7 @@ sidebar_position: 3
 
 **Step 2:** Enter your email address and submit.  
 
-![Forgot Password Form](images/enter_email_id.png)  
+![Forgot Password Form](images/fig21.png)  
 *Forgot Password Form*
 
 **Step 3:** Open the password reset email and click the provided link.  
