@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+const baseUrl = '/';
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // remove the old footer_col_3 import since we'll inline everything
@@ -11,7 +11,7 @@ const config = {
   title: 'TGDeX User Manual',
   tagline: 'Guide to navigating TGDeX platform features, roles, and support resources.',
   url: 'https://docs.tgdex.iudx.io/',
-  baseUrl: '/',
+  baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/tgdex_logo.svg',
@@ -62,100 +62,90 @@ const config = {
 
 
       footer: {
-                     style: 'light',
-                     links: [
-                       // 1st column: logo + description + social icons
-                       {
-                         items: [
-                           {
-                             html: `
-                               <div class="footer__brand">
-                                 <img src="/img/tgdex-green.svg" alt="TGDeX Logo" style="height:40px; margin-bottom:16px;" />
-                                 <p class="footer__text">
-The Telangana Data Exchange platform offers access to curated data banks, pre-trained AI models, and use cases — all in one place to empower secure data exchange and support development of AI-driven solutions.
-                                 </p>
-                                 <h5 class="footer__social-heading">Social Media</h5>
-                                 <div class="footer__social-icons">
-                                   <a href="https://www.facebook.com/etgots/" target="_blank" rel="noopener">
-                                     <img src="/img/meta.svg" alt="Meta" />
-                                   </a>
-                                   <a href="https://x.com/emergingtechts" target="_blank" rel="noopener">
-                                     <img src="/img/x.svg" alt="X" />
-                                   </a>
-                                   <a href="https://www.linkedin.com/company/et-itec-gots/?originalSubdomain=in" target="_blank" rel="noopener">
-                                     <img src="/img/linkedin.svg" alt="LinkedIn" />
-                                   </a>
-                                   <a href="https://www.instagram.com/emerging.technology.ts.gov.in" target="_blank" rel="noopener">
-                                     <img src="/img/instagram.svg" alt="Instagram" />
-                                   </a>
+        style: 'light',
+        links: [
+          // 1st column: logo + description + social icons
+          {
+            items: [
+              {
+                html: `
+  <div class="footer__brand">
+    <img
+      src="${baseUrl}img/tgdex-green.svg"
+      alt="TGDeX Logo"
+      style="height:40px; margin-bottom:16px;"
+    />
+    <p class="footer__text">
+      The Telangana Data Exchange platform offers access to curated data banks, pre-trained AI models, and use cases — all in one place to empower secure data exchange and support development of AI-driven solutions.
+    </p>
+    <h5 class="footer__social-heading">Social Media</h5>
+    <div class="footer__social-icons">
+      <a href="https://www.facebook.com/etgots/" target="_blank" rel="noopener">
+        <img src="${baseUrl}img/meta.svg" alt="Meta" />
+      </a>
+      <a href="https://x.com/emergingtechts" target="_blank" rel="noopener">
+        <img src="${baseUrl}img/x.svg" alt="X" />
+      </a>
+      <a href="https://www.linkedin.com/company/et-itec-gots/?originalSubdomain=in" target="_blank" rel="noopener">
+        <img src="${baseUrl}img/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.instagram.com/emerging.technology.ts.gov.in" target="_blank" rel="noopener">
+        <img src="${baseUrl}img/instagram.svg" alt="Instagram" />
+      </a>
+    </div>
+  </div>
+`,
+              },
+            ],
+          },
 
+          // 2nd column: “TGDeX”
+          {
+            title: 'TGDeX',
+            items: [
+              { label: 'Home', to: 'https://tgdex.telangana.gov.in/' },
+              { label: 'About TGDeX', to: 'https://tgdex.telangana.gov.in/about-us' },
+              { label: 'Contact Us', to: 'https://helpdesk.tgdex.telangana.gov.in/' },
+            ],
+          },
 
+          // 3rd column: “Platform Features”
+          {
+            title: 'Platform Features',
+            items: [
+              { label: 'Data Banks', to: 'https://tgdex.telangana.gov.in/data-bank' },
+              { label: 'AI Models', to: 'https://tgdex.telangana.gov.in/ai-model' },
+              { label: 'Use Cases', to: 'https://tgdex.telangana.gov.in/potential-application' },
+              { label: 'Sandbox IDE', to: 'https://tgdex.telangana.gov.in/sandbox' },
+              { label: 'Toolsets', to: 'https://tgdex.telangana.gov.in/toolsets' },
+              { label: 'Library', to: 'https://tgdex.telangana.gov.in/library' },
+            ],
+          },
 
-                             `,
-                           },
-                         ],
-                       },
-
-                       // 2nd column: “TGDeX”
-                       {
-                         items: [],
-                       },
-
-                       {
-                         title: 'TGDeX',
-                         items: [
-                           { label: 'Home', to: 'https://tgdex.telangana.gov.in/' },
-                           { label: 'About TGDeX', to: 'https://tgdex.telangana.gov.in/about-us' },
-                           { label: 'Contact Us', to: 'https://helpdesk.tgdex.telangana.gov.in/' },
-                         ],
-                       },
-
-                       // 3rd column: “Platform Features”
-                       {
-                         title: 'Platform Features',
-                         items: [
-                           { label: 'Data Banks', to: 'https://tgdex.telangana.gov.in/data-bank' },
-                           { label: 'AI Models', to: 'https://tgdex.telangana.gov.in/ai-model' },
-                           { label: 'Use Cases', to: 'https://tgdex.telangana.gov.in/potential-application' },
-                           { label: 'Sandbox IDE', to: 'https://tgdex.telangana.gov.in/sandbox' },
-                           { label: 'Toolsets', to: 'https://tgdex.telangana.gov.in/toolsets' },
-                           { label: 'Library', to: 'https://tgdex.telangana.gov.in/library' },
-                         ],
-                       },
-
-                       // 4th column: “Help & Support”
-                       {
-                         title: 'Help & Support',
-                         items: [
-                           { label: 'Help & Support', to: 'https://tgdex.telangana.gov.in/help-support' },
-                           { label: 'FAQs', to: 'https://tgdex.telangana.gov.in/faq' },
-                           { label: 'User Manual', to: '/' },
-                           { label: 'Sitemap', to: 'https://tgdex.telangana.gov.in/sitemap' },
-                         ],
-                       },
-                         // remove any separate `logo:` block so the bottom row only has legal
-
-                              // remove any separate `logo:` block so the bottom row only has legal
-
-                     ],
-                                              copyright: `
-                                                             <hr class="footer__bottom-divider" />
-
-                                 </div>
-                                                                 <div class="footer__emerging-tech">
-                                                                 <span class="footer__emerging-tech__text">Powered By:  </span>
-                                                                   <img src="/img/emerging-tech.svg"
-                                                                        alt="Emerging Technologies Logo"
-                                                                        style="width:180px;" />
-                                                                 </div>
-                                                               </div>
-                                                 </div>
-                                                     <div class="footer__legal">
-                                                       &copy; Government of Telangana
-                                                     </div>
-                                                   `
-                   },
-
+          // 4th column: “Help & Support”
+          {
+            title: 'Help & Support',
+            items: [
+              { label: 'Help & Support', to: 'https://tgdex.telangana.gov.in/help-support' },
+              { label: 'FAQs', to: 'https://tgdex.telangana.gov.in/faq' },
+              { label: 'User Manual', to: '/' },
+              { label: 'Sitemap', to: 'https://tgdex.telangana.gov.in/sitemap' },
+            ],
+          },
+        ],
+        copyright: `
+    <hr style="width:100%; margin:2rem 0; border:none; border-top:1px solid #ddd;" />
+    <div class="footer__bottom-content" style="display:flex; flex-direction:column; align-items:flex-start; gap:1rem;">
+      <div style="display:flex; align-items:vertically-inline; gap:0.5rem; margin-left:10rem; width:300px">
+        <span>Powered By: </span>
+        <img src="${baseUrl}img/emerging-tech.svg" alt="Emerging Technologies Logo" style="height:45px;" />
+      </div>
+      <div class="full-width-cta">
+        &copy; Government of Telangana
+      </div>
+    </div>
+  `,
+      },
 
       prism: {
         theme: lightCodeTheme,
@@ -164,7 +154,7 @@ The Telangana Data Exchange platform offers access to curated data banks, pre-tr
 
       stylesheets: [
         // ensure your custom footer CSS is loaded
-        '/css/footer.css',
+        '${baseUrl}css/footer.css',
       ],
     }),
 };
