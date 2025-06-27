@@ -1,6 +1,26 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src  'self';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; object-src 'none';"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
+
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
