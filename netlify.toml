@@ -6,12 +6,12 @@
     X-Frame-Options = "DENY"
 
 [[headers]]
-  for = "/static/*"
+  for = "/static/**"
   [headers.values]
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
-  for = "/images/*"
+  for = "/images/**"
   [headers.values]
     X-Content-Type-Options = "nosniff"
 
@@ -22,11 +22,6 @@
 
 [[headers]]
   for = "/manifest.json"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-
-[[headers]]
-  for = "/*.js"
   [headers.values]
     X-Content-Type-Options = "nosniff"
 
