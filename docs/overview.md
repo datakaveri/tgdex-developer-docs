@@ -6,8 +6,7 @@ sidebar_position: 1
 
 ## Introduction to TGDeX
 
-Telangana Data Exchange (TGDeX) is an initiative by the ITE&C Department, Government of Telangana, designed to empower innovation across sectors. By providing access to rich datasets, AI models, applications, and development tools, TGDeX inspires grassroots solutions that tackle real-world challenges faced by citizens. The platform embodies Telangana’s commitment to digital leadership, inclusive growth, and technology-driven governance.
-
+Telangana Data Exchange (TGDeX) is an initiative by the ITE&C Department, Government of Telangana, designed to empower innovation across sectors. By providing access to rich datasets, AI models, use cases, Sandbox IDE and development tools, TGDeX aims to inspire grassroot innovations that tackle real-world challenges faced by citizens. The platform embodies Telangana’s commitment to digital leadership, inclusive growth and technology-driven governance.
 ## About this User Guide
 
 This section explains the objective and best ways to use this guide.
