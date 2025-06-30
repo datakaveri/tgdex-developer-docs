@@ -8,6 +8,11 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(to right, #21d278 0%, #044423 100%);
+  background-image: url('/img/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 966px) {
