@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TGDeX User Manual',
+  title: 'User Manual',
   tagline: 'Guide to navigating TGDeX platform features, roles, and support resources.',
   url: 'https://docs.tgdex.iudx.io/',
   baseUrl,
@@ -76,7 +76,7 @@ const config = {
       <img
         src="${baseUrl}img/tgdex-green.svg"
         alt="TGDeX Logo"
-        style="height:40px; margin-bottom:16px;"
+        style="height:40px; margin-bottom:1px;"
       />
     </a>
     <p class="footer__text">
@@ -97,8 +97,7 @@ const config = {
         <img src="${baseUrl}img/instagram.svg" alt="Instagram" />
       </a>
     </div>
-  </div>
-`,
+  </div>`,
               },
             ],
           },
@@ -130,7 +129,7 @@ const config = {
           {
             title: 'Help & Support',
             items: [
-              { label: 'Help & Support', to: 'https://tgdex.telangana.gov.in/help-support' },
+              { label: 'Help & Support', to: 'https://helpdesk.tgdex.telangana.gov.in/' },
               { label: 'FAQs', to: 'https://tgdex.telangana.gov.in/faq' },
               { label: 'User Manual', to: '/' },
               { label: 'Sitemap', to: 'https://tgdex.telangana.gov.in/sitemap' },
