@@ -54,7 +54,7 @@ const config = {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/TGDeX.svg',
+          src: 'img/TGDeX.png',
           href: 'https://tgdex.telangana.gov.in/',
           target: '_blank',
         },
@@ -74,7 +74,7 @@ const config = {
   <div class="footer__brand">
     <a href="https://tgdex.telangana.gov.in/" target="_blank" rel="noopener">
       <img
-        src="${baseUrl}img/tgdex-green.svg"
+        src="${baseUrl}img/tgdex-green.png"
         alt="TGDeX Logo"
         style="height:40px; margin-bottom:1px;"
       />
